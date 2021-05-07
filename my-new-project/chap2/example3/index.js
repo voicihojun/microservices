@@ -11,6 +11,8 @@ if (!process.env.PORT) {
 }
 
 const PORT = process.env.PORT;
+// export PORT=포트번호
+// env 명령어로 터미널에서 확인가능
 
 app.get("/video", (req, res) => {
   const path = "../example2/data/sample-mp4-file.mp4";

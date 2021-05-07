@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const app = express();
 
-const port = 3008;
+const port = 3010;
 
 app.get("/video", (req, res) => {
   const path = "./data/sample-mp4-file.mp4";
